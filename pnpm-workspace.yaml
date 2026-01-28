@@ -1,6 +1,6 @@
 packages:
   - packages/*
-onlyBuiltDependencies:
-  - bun
+ignoredBuiltDependencies:
   - esbuild
-  - protobufjs
+  - sharp
+  - unrs-resolver

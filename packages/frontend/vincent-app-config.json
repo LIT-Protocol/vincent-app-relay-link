@@ -1,0 +1,20 @@
+{
+  "appId": "173",
+  "appManagerAddress": "0x58422416B8b74Ef5664A0125Fa8a09e00BAB3565",
+  "accountIndexHash": "0xa11c22256f90c356a0b49428df5680e6813a83514cfb317ca38bcf47d337056e",
+  "appVersion": "1",
+  "delegatees": [
+    "0x40dBdFa603485aA114c16bbb0b99b83A324Ae3dC"
+  ],
+  "abilityIpfsCids": [
+    "QmUSDv7XougqNrpzjdryJEGibbnyRKWJjGTmptcYMr8oKk"
+  ],
+  "abilityPolicies": [
+    []
+  ],
+  "network": "base-sepolia",
+  "chainId": 84532,
+  "transactionHash": "",
+  "blockNumber": "0",
+  "timestamp": "2026-01-28T08:41:47.492Z"
+}
