@@ -28,10 +28,12 @@ export function useBalances(userControllerAddress: string | undefined) {
       const ethToken = fundsData.tokens.find(
         (token) => token.network === 'base-mainnet' && !token.tokenAddress
       );
-      if (ethToken && ethToken.tokenMetadata) {
+      if (ethToken) {
+        // Native ETH always has 18 decimals
+        const decimals = ethToken.tokenMetadata?.decimals ?? 18;
         const ethFormatted = formatUnits(
           BigInt(ethToken.tokenBalance),
-          ethToken.tokenMetadata.decimals
+          decimals
         );
         setEthBalance(parseFloat(ethFormatted).toFixed(18));
       }
@@ -43,10 +45,12 @@ export function useBalances(userControllerAddress: string | undefined) {
           token.tokenAddress &&
           token.tokenAddress.toLowerCase() === USDC_ADDRESS.toLowerCase()
       );
-      if (usdcToken && usdcToken.tokenMetadata) {
+      if (usdcToken) {
+        // USDC has 6 decimals
+        const decimals = usdcToken.tokenMetadata?.decimals ?? 6;
         const usdcFormatted = formatUnits(
           BigInt(usdcToken.tokenBalance),
-          usdcToken.tokenMetadata.decimals
+          decimals
         );
         setUsdcBalance(parseFloat(usdcFormatted).toFixed(6));
       }
