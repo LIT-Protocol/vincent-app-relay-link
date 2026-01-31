@@ -11,7 +11,8 @@
     "register-app": "tsx scripts/register-app.ts"
   },
   "devDependencies": {
-    "@lit-protocol/vincent-e2e-test-utils": "4.0.0",
+    "@lit-protocol/vincent-ability-relay-link": "2.0.0",
+    "@lit-protocol/vincent-e2e-test-utils": "4.1.0",
     "dotenv": "^17.2.3",
     "ethers": "^6.16.0",
     "tsx": "^4.21.0",

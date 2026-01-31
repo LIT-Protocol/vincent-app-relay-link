@@ -3,6 +3,7 @@ import { base, baseSepolia } from 'viem/chains';
 import type { Chain } from 'viem/chains';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { bundledVincentAbility } from '@lit-protocol/vincent-ability-relay-link';
 
 // Get __dirname equivalent in ESM
 const __filename = fileURLToPath(import.meta.url);
@@ -27,7 +28,7 @@ export const CHRONICLE_YELLOWSTONE_RPC_URL = 'https://yellowstone-rpc.litprotoco
 // Bundled Vincent ability IPFS CID for relay.link
 // From @lit-protocol/vincent-ability-relay-link package
 // TODO: Update this to the correct CID after building the ability
-export const BUNDLED_VINCENT_ABILITY_CID = 'QmUSDv7XougqNrpzjdryJEGibbnyRKWJjGTmptcYMr8oKk';
+export const BUNDLED_VINCENT_ABILITY_CID = bundledVincentAbility.ipfsCid;
 
 /**
  * Validate and export environment variables

@@ -1,13 +1,13 @@
 {
-  "appId": "173",
-  "appManagerAddress": "0x58422416B8b74Ef5664A0125Fa8a09e00BAB3565",
-  "accountIndexHash": "0xa11c22256f90c356a0b49428df5680e6813a83514cfb317ca38bcf47d337056e",
+  "appId": "181",
+  "appManagerAddress": "0x3787275044877a5ac52eDE6E9aB7E96141a5A39a",
+  "accountIndexHash": "0x55cdaf2ae7db2e0f9fb33e4d30ebefed167ed00ca7230ea76934c74d441af2d4",
   "appVersion": "1",
   "delegatees": [
-    "0x40dBdFa603485aA114c16bbb0b99b83A324Ae3dC"
+    "0x53b00d423277fc85F35FF62b8F556F5048faBb73"
   ],
   "abilityIpfsCids": [
-    "QmUSDv7XougqNrpzjdryJEGibbnyRKWJjGTmptcYMr8oKk"
+    "QmbUdw8GbN1355zackDxHbvdL4mqUMAiLwiC9JJ9hS7W5H"
   ],
   "abilityPolicies": [
     []
@@ -16,5 +16,5 @@
   "chainId": 84532,
   "transactionHash": "",
   "blockNumber": "0",
-  "timestamp": "2026-01-28T08:41:47.492Z"
+  "timestamp": "2026-01-30T23:52:15.088Z"
 }
